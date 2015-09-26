@@ -1,0 +1,277 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A425FEB11BB6F73200C6C710 /* MyDriver.c in Sources */ = {isa = PBXBuildFile; fileRef = A425FEB01BB6F73200C6C710 /* MyDriver.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A425FEAD1BB6F73200C6C710 /* MyDriver.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyDriver.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		A425FEB01BB6F73200C6C710 /* MyDriver.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MyDriver.c; sourceTree = "<group>"; };
+		A425FEB21BB6F73200C6C710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A425FEA91BB6F73200C6C710 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A425FEA31BB6F73200C6C710 = {
+			isa = PBXGroup;
+			children = (
+				A425FEAF1BB6F73200C6C710 /* MyDriver */,
+				A425FEAE1BB6F73200C6C710 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A425FEAE1BB6F73200C6C710 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A425FEAD1BB6F73200C6C710 /* MyDriver.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A425FEAF1BB6F73200C6C710 /* MyDriver */ = {
+			isa = PBXGroup;
+			children = (
+				A425FEB01BB6F73200C6C710 /* MyDriver.c */,
+				A425FEB21BB6F73200C6C710 /* Info.plist */,
+			);
+			path = MyDriver;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A425FEAA1BB6F73200C6C710 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A425FEAC1BB6F73200C6C710 /* MyDriver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A425FEB51BB6F73200C6C710 /* Build configuration list for PBXNativeTarget "MyDriver" */;
+			buildPhases = (
+				A425FEA81BB6F73200C6C710 /* Sources */,
+				A425FEA91BB6F73200C6C710 /* Frameworks */,
+				A425FEAA1BB6F73200C6C710 /* Headers */,
+				A425FEAB1BB6F73200C6C710 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyDriver;
+			productName = MyDriver;
+			productReference = A425FEAD1BB6F73200C6C710 /* MyDriver.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A425FEA41BB6F73200C6C710 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = pandazheng;
+				TargetAttributes = {
+					A425FEAC1BB6F73200C6C710 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 77H99EALXR;
+					};
+				};
+			};
+			buildConfigurationList = A425FEA71BB6F73200C6C710 /* Build configuration list for PBXProject "MyDriver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A425FEA31BB6F73200C6C710;
+			productRefGroup = A425FEAE1BB6F73200C6C710 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A425FEAC1BB6F73200C6C710 /* MyDriver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A425FEAB1BB6F73200C6C710 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A425FEA81BB6F73200C6C710 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A425FEB11BB6F73200C6C710 /* MyDriver.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A425FEB31BB6F73200C6C710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer: WANG ZHENG (8KGVC3Q9LT)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A425FEB41BB6F73200C6C710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer: WANG ZHENG (8KGVC3Q9LT)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A425FEB61BB6F73200C6C710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				INFOPLIST_FILE = MyDriver/Info.plist;
+				MODULE_NAME = pandazheng.MyDriver;
+				MODULE_START = MyDriver_start;
+				MODULE_STOP = MyDriver_stop;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_BUNDLE_IDENTIFIER = pandazheng.MyDriver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		A425FEB71BB6F73200C6C710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				INFOPLIST_FILE = MyDriver/Info.plist;
+				MODULE_NAME = pandazheng.MyDriver;
+				MODULE_START = MyDriver_start;
+				MODULE_STOP = MyDriver_stop;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_BUNDLE_IDENTIFIER = pandazheng.MyDriver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A425FEA71BB6F73200C6C710 /* Build configuration list for PBXProject "MyDriver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A425FEB31BB6F73200C6C710 /* Debug */,
+				A425FEB41BB6F73200C6C710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A425FEB51BB6F73200C6C710 /* Build configuration list for PBXNativeTarget "MyDriver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A425FEB61BB6F73200C6C710 /* Debug */,
+				A425FEB71BB6F73200C6C710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A425FEA41BB6F73200C6C710 /* Project object */;
+}
